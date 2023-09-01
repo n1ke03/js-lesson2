@@ -24,15 +24,19 @@
 // console.log(resultSum)
 
 
-resultSum = 0;
-let mounth = 0;
-let sum = 0
-do {
-    sum = +prompt("сколько хочешь отложить?");
-    resultSum += sum
-    mounth++
-    alert(" Ты копишь уже " + mounth + " месяцев ")
-    y = confirm("Будешь ещё откладывать Да/Нет")
-}
-while (y == true)
-alert(" Ты накопил " + resultSum + " и держался " + mounth + " месяцев ")
+// resultSum = 0;
+// let mounth = 0;
+// let sum = 0
+// do {
+//     sum = +prompt("сколько хочешь отложить?");
+//     resultSum += sum
+//     mounth++
+//     alert(" Ты копишь уже " + mounth + " месяцев ")
+//     y = confirm("Будешь ещё откладывать Да/Нет")
+// }
+// while (y == true)
+// alert(" Ты накопил " + resultSum + " и держался " + mounth + " месяцев ")
+
+
+for(i=0; i<5; i++)
+ console.log(i);
