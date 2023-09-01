@@ -8,13 +8,10 @@
 
 // let sum = +prompt("сколько хочешь отложить?");
 // let mounth = +prompt(" Сколько месяцев? ");
-// let i = 1; // задана переменная
-// let resultSum = 0;
 
 
-// while(i<=mounth){
+// for(i = 0, resultSum = 0; i<mounth; i++){
 //     resultSum = resultSum + sum
-//     i++
 
 //    if(i % 2 == 0){
 //     resultSum -= 100 // откладываем каждые 2 месяца по 100р
@@ -37,6 +34,11 @@
 // while (y == true)
 // alert(" Ты накопил " + resultSum + " и держался " + mounth + " месяцев ")
 
+// for (initialization; condition; expression) - Цикл-счетчик
+// (начальной инициализации цикловой переменной; 
+//     условие; 
+//     задает выражение для изменения цикловой переменной)
 
-for(i=0; i<5; i++)
- console.log(i);
+// for (i = 0, s = "*"; i < 5; i++, s = s + "*") {
+//     console.log(s)
+// }
