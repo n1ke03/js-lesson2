@@ -1,6 +1,5 @@
 // let x = +prompt("сколько нужно почистить?")
 // let i = 0 // Кол-во почищенных картошин
-
 // while(i < x){
 //     i++;
 //     console.log("я почистил " + i + " картошку ")
@@ -8,15 +7,11 @@
 
 // let sum = +prompt("сколько хочешь отложить?");
 // let mounth = +prompt(" Сколько месяцев? ");
-
-
 // for(i = 0, resultSum = 0; i<mounth; i++){
 //     resultSum = resultSum + sum
-
 //    if(i % 2 == 0){
 //     resultSum -= 100 // откладываем каждые 2 месяца по 100р
 //    }
-
 // }
 // console.log(resultSum)
 
