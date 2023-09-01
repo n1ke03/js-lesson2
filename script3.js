@@ -16,15 +16,17 @@
 // alert(sum(3, 5))
 
 
-counter = 0
-function hi(name, text="Привет"){
-    counter++
-    alert(name + ", " + text)
-}
-function showHiCount(){
-    alert("Я поприветствовал " +counter + " человек")
-}
-hi("Андрей")
-hi("Петя")
-hi("Анастасия", "Здравствуйте")
-showHiCount()
+// counter = 0
+// function hi(name, text="Привет"){
+//     counter++
+//     alert(name + ", " + text)
+// }
+// function showHiCount(){
+//     alert("Я поприветствовал " +counter + " человек")
+// }
+// hi("Андрей")
+// hi("Петя")
+// hi("Анастасия", "Здравствуйте")
+// showHiCount()
+
+
